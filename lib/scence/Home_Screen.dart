@@ -18,7 +18,7 @@ import '../Widgets/post_page.dart';
 import '../Widgets/profile_page.dart';
 
 class HomePage extends StatefulWidget {
-  //const HomePage{super.key});
+ 
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -112,294 +112,7 @@ class _HomePageState extends State<HomePage> {
                       },
                     ),
                   )),
-                  // Expanded(
-                  //     child: Container(
-                  //   height: 200,
-                  //   child: ListView.builder(
-                  //     itemCount: 1,
-                  //     scrollDirection: Axis.horizontal,
-                  //     shrinkWrap: true,
-                  //     itemBuilder: (BuildContext context, int index) {
-                  //       return InkWell(
-                  //         onTap: () {
-                  //           Navigator.push(
-                  //               context,
-                  //               MaterialPageRoute(
-                  //                 builder: (context) => Slemani_Page(),
-                  //               ));
-                  //         },
-                  //         child: Container(
-                  //           width: 200,
-                  //           padding: EdgeInsets.all(20),
-                  //           margin: EdgeInsets.only(left: 15),
-                  //           decoration: BoxDecoration(
-                  //               color: Colors.black,
-                  //               borderRadius: BorderRadius.circular(15),
-                  //               image: DecorationImage(
-                  //                 image: AssetImage("images/city2.jpeg"),
-                  //                 fit: BoxFit.cover,
-                  //                 opacity: 0.7,
-                  //               )),
-                  //           child: Column(
-                  //             children: [
-                  //               Container(
-                  //                 alignment: Alignment.topRight,
-                  //                 child: Icon(
-                  //                   Icons.bookmark_border_outlined,
-                  //                   color: Colors.white,
-                  //                   size: 30,
-                  //                 ),
-                  //               ),
-                  //               Spacer(),
-                  //               Container(
-                  //                 alignment: Alignment.bottomLeft,
-                  //                 child: Text(
-                  //                   "Slemani",
-                  //                   style: TextStyle(
-                  //                     color: Colors.white,
-                  //                     fontSize: 18,
-                  //                     fontWeight: FontWeight.w500,
-                  //                   ),
-                  //                 ),
-                  //               ),
-                  //             ],
-                  //           ),
-                  //         ),
-                  //       );
-                  //     },
-                  //   ),
-                  // )),
-                  // SizedBox(
-                  //   width: 10.0,
-                  // ),
-                  // Expanded(
-                  //     child: Container(
-                  //   height: 200,
-                  //   child: ListView.builder(
-                  //     itemCount: 1,
-                  //     scrollDirection: Axis.horizontal,
-                  //     shrinkWrap: true,
-                  //     itemBuilder: (BuildContext context, int index) {
-                  //       return InkWell(
-                  //         onTap: () {
-                  //           Navigator.push(
-                  //               context,
-                  //               MaterialPageRoute(
-                  //                 builder: (context) => DuhokPage(),
-                  //               ));
-                  //         },
-                  //         child: Container(
-                  //           width: 200,
-                  //           padding: EdgeInsets.all(20),
-                  //           margin: EdgeInsets.only(left: 15),
-                  //           decoration: BoxDecoration(
-                  //               color: Colors.black,
-                  //               borderRadius: BorderRadius.circular(15),
-                  //               image: DecorationImage(
-                  //                 image: AssetImage("images/city3.jpeg"),
-                  //                 fit: BoxFit.cover,
-                  //                 opacity: 0.7,
-                  //               )),
-                  //           child: Column(
-                  //             children: [
-                  //               Container(
-                  //                 alignment: Alignment.topRight,
-                  //                 child: Icon(
-                  //                   Icons.bookmark_border_outlined,
-                  //                   color: Colors.white,
-                  //                   size: 30,
-                  //                 ),
-                  //               ),
-                  //               Spacer(),
-                  //               Container(
-                  //                 alignment: Alignment.bottomLeft,
-                  //                 child: Text(
-                  //                   "Duhok",
-                  //                   style: TextStyle(
-                  //                     color: Colors.white,
-                  //                     fontSize: 18,
-                  //                     fontWeight: FontWeight.w500,
-                  //                   ),
-                  //                 ),
-                  //               ),
-                  //             ],
-                  //           ),
-                  //         ),
-                  //       );
-                  //     },
-                  //   ),
-                  // )),
-                  // Expanded(
-                  //     child: Container(
-                  //   height: 200,
-                  //   child: ListView.builder(
-                  //     itemCount: 1,
-                  //     scrollDirection: Axis.horizontal,
-                  //     shrinkWrap: true,
-                  //     itemBuilder: (BuildContext context, int index) {
-                  //       return InkWell(
-                  //         onTap: () {
-                  //           Navigator.push(
-                  //               context,
-                  //               MaterialPageRoute(
-                  //                 builder: (context) => KirkukPage(),
-                  //               ));
-                  //         },
-                  //         child: Container(
-                  //           width: 200,
-                  //           padding: EdgeInsets.all(20),
-                  //           margin: EdgeInsets.only(left: 15),
-                  //           decoration: BoxDecoration(
-                  //               color: Colors.black,
-                  //               borderRadius: BorderRadius.circular(15),
-                  //               image: DecorationImage(
-                  //                 image: AssetImage("images/city4.jpeg"),
-                  //                 fit: BoxFit.cover,
-                  //                 opacity: 0.7,
-                  //               )),
-                  //           child: Column(
-                  //             children: [
-                  //               Container(
-                  //                 alignment: Alignment.topRight,
-                  //                 child: Icon(
-                  //                   Icons.bookmark_border_outlined,
-                  //                   color: Colors.white,
-                  //                   size: 30,
-                  //                 ),
-                  //               ),
-                  //               Spacer(),
-                  //               Container(
-                  //                 alignment: Alignment.bottomLeft,
-                  //                 child: Text(
-                  //                   "Kirkuk",
-                  //                   style: TextStyle(
-                  //                     color: Colors.white,
-                  //                     fontSize: 18,
-                  //                     fontWeight: FontWeight.w500,
-                  //                   ),
-                  //                 ),
-                  //               ),
-                  //             ],
-                  //           ),
-                  //         ),
-                  //       );
-                  //     },
-                  //   ),
-                  // )),
-                  // Expanded(
-                  //     child: Container(
-                  //   height: 200,
-                  //   child: ListView.builder(
-                  //     itemCount: 1,
-                  //     scrollDirection: Axis.horizontal,
-                  //     shrinkWrap: true,
-                  //     itemBuilder: (BuildContext context, int index) {
-                  //       return InkWell(
-                  //         onTap: () {
-                  //           Navigator.push(
-                  //               context,
-                  //               MaterialPageRoute(
-                  //                 builder: (context) => AhmadawaPage(),
-                  //               ));
-                  //         },
-                  //         child: Container(
-                  //           width: 200,
-                  //           padding: EdgeInsets.all(20),
-                  //           margin: EdgeInsets.only(left: 15),
-                  //           decoration: BoxDecoration(
-                  //               color: Colors.black,
-                  //               borderRadius: BorderRadius.circular(15),
-                  //               image: DecorationImage(
-                  //                 image: AssetImage("images/city5.jpeg"),
-                  //                 fit: BoxFit.cover,
-                  //                 opacity: 0.7,
-                  //               )),
-                  //           child: Column(
-                  //             children: [
-                  //               Container(
-                  //                 alignment: Alignment.topRight,
-                  //                 child: Icon(
-                  //                   Icons.bookmark_border_outlined,
-                  //                   color: Colors.white,
-                  //                   size: 30,
-                  //                 ),
-                  //               ),
-                  //               Spacer(),
-                  //               Container(
-                  //                 alignment: Alignment.bottomLeft,
-                  //                 child: Text(
-                  //                   "Ahmadawa",
-                  //                   style: TextStyle(
-                  //                     color: Colors.white,
-                  //                     fontSize: 18,
-                  //                     fontWeight: FontWeight.w500,
-                  //                   ),
-                  //                 ),
-                  //               ),
-                  //             ],
-                  //           ),
-                  //         ),
-                  //       );
-                  //     },
-                  //   ),
-                  // )),
-                  // Expanded(
-                  //     child: Container(
-                  //   height: 200,
-                  //   child: ListView.builder(
-                  //     itemCount: 1,
-                  //     scrollDirection: Axis.horizontal,
-                  //     shrinkWrap: true,
-                  //     itemBuilder: (BuildContext context, int index) {
-                  //       return InkWell(
-                  //         onTap: () {
-                  //           Navigator.push(
-                  //               context,
-                  //               MaterialPageRoute(
-                  //                 builder: (context) => RwandizPage(),
-                  //               ));
-                  //         },
-                  //         child: Container(
-                  //           width: 200,
-                  //           padding: EdgeInsets.all(20),
-                  //           margin: EdgeInsets.only(left: 15),
-                  //           decoration: BoxDecoration(
-                  //               color: Colors.black,
-                  //               borderRadius: BorderRadius.circular(15),
-                  //               image: DecorationImage(
-                  //                 image: AssetImage("images/city6.jpeg"),
-                  //                 fit: BoxFit.cover,
-                  //                 opacity: 0.7,
-                  //               )),
-                  //           child: Column(
-                  //             children: [
-                  //               Container(
-                  //                 alignment: Alignment.topRight,
-                  //                 child: Icon(
-                  //                   Icons.bookmark_border_outlined,
-                  //                   color: Colors.white,
-                  //                   size: 30,
-                  //                 ),
-                  //               ),
-                  //               Spacer(),
-                  //               Container(
-                  //                 alignment: Alignment.bottomLeft,
-                  //                 child: Text(
-                  //                   "Rwandiz",
-                  //                   style: TextStyle(
-                  //                     color: Colors.white,
-                  //                     fontSize: 18,
-                  //                     fontWeight: FontWeight.w500,
-                  //                   ),
-                  //                 ),
-                  //               ),
-                  //             ],
-                  //           ),
-                  //         ),
-                  //       );
-                  //     },
-                  //   ),
-                  // )),
+              
                 ],
               ),
               SizedBox(
@@ -515,20 +228,15 @@ class _HomePageState extends State<HomePage> {
                       );
                     }),
               ),
-              // Container(
-              //   child: Column(
-              //     children: [Widgets[index]],
-              //   ),
+          
             ])),
           ),
         ),
       ),
       drawer: Drawer(
-        // Add a ListView to the drawer. This ensures the user can scroll
-        // through the options in the drawer if there isn't enough vertical
-        // space to fit everything.
+     
         child: ListView(
-          // Important: Remove any padding from the ListView.
+         
           padding: EdgeInsets.zero,
           children: [
             UserAccountsDrawerHeader(
@@ -552,8 +260,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () => Scaffold.of(context).openDrawer(),
               ),
               onTap: () {
-                // Update the state of the app
-                // Then close the drawer
+             
                 Navigator.pop(context);
               },
             ),
@@ -564,8 +271,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () => Scaffold.of(context).openDrawer(),
               ),
               onTap: () {
-                // Update the state of the app
-                // Then close the drawer
+                
                 Navigator.pop(context);
               },
             ),
@@ -576,8 +282,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () => Scaffold.of(context).openDrawer(),
               ),
               onTap: () {
-                // Update the state of the app
-                // Then close the drawer
+              
                 Navigator.pop(context);
               },
             ),
@@ -588,8 +293,7 @@ class _HomePageState extends State<HomePage> {
                 onPressed: () => Scaffold.of(context).openDrawer(),
               ),
               onTap: () {
-                // Update the state of the app
-                // Then close the drawer
+           
                 Navigator.pop(context);
               },
             ),
